@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyDemo", "..\..\..\TestProjects\Cryptography\CryptographyDemo\CryptographyDemo.csproj", "{38A7F652-32C8-4682-8AD0-42D79049B310}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyDemo", "CryptographyDemo\CryptographyDemo.csproj", "{38A7F652-32C8-4682-8AD0-42D79049B310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSingaturesDemo", "..\..\..\TestProjects\Cryptography\DigitalSingaturesDemo\DigitalSingaturesDemo.csproj", "{22106476-E127-4B59-9253-76A5DF2F4301}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSingaturesDemo", "DigitalSingaturesDemo\DigitalSingaturesDemo.csproj", "{22106476-E127-4B59-9253-76A5DF2F4301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Web", "..\..\..\TestProjects\Cryptography\Receiver\Receiver.Web\Receiver.Web.csproj", "{C6CBFE5B-8E18-471E-BF92-AD8964729AE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Web", "Receiver\Receiver.Web\Receiver.Web.csproj", "{C6CBFE5B-8E18-471E-BF92-AD8964729AE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Repository", "..\..\..\TestProjects\Cryptography\Receiver\Receiver.Repository\Receiver.Repository.csproj", "{B48BE25E-5313-45D9-833A-524B048244C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Repository", "Receiver\Receiver.Repository\Receiver.Repository.csproj", "{B48BE25E-5313-45D9-833A-524B048244C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.ApplicationService", "..\..\..\TestProjects\Cryptography\Receiver\Receiver.ApplicationService\Receiver.ApplicationService.csproj", "{521E26B7-76F4-4814-80AB-A420FA10027A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Infrastructure", "Receiver\Receiver.Infrastructure\Receiver.Infrastructure.csproj", "{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Infrastructure", "..\..\..\TestProjects\Cryptography\Receiver\Receiver.Infrastructure\Receiver.Infrastructure.csproj", "{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.ApplicationService", "Receiver\Receiver.ApplicationService\Receiver.ApplicationService.csproj", "{521E26B7-76F4-4814-80AB-A420FA10027A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "..\..\..\TestProjects\Cryptography\Sender\Sender.csproj", "{C1F80C7B-4803-46D1-9C49-98770300223B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{C1F80C7B-4803-46D1-9C49-98770300223B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamperProofQueryStrings", "..\..\..\TestProjects\Cryptography\TamperProofQueryStrings\TamperProofQueryStrings.csproj", "{0CA158A2-AD20-48EA-BBB3-C5FD8AE9D8A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamperProofQueryStrings", "TamperProofQueryStrings\TamperProofQueryStrings.csproj", "{0CA158A2-AD20-48EA-BBB3-C5FD8AE9D8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,14 @@ Global
 		{B48BE25E-5313-45D9-833A-524B048244C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48BE25E-5313-45D9-833A-524B048244C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48BE25E-5313-45D9-833A-524B048244C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{521E26B7-76F4-4814-80AB-A420FA10027A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{521E26B7-76F4-4814-80AB-A420FA10027A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{521E26B7-76F4-4814-80AB-A420FA10027A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{521E26B7-76F4-4814-80AB-A420FA10027A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1764A5A3-C618-40E4-8CEC-4A902EBEF7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521E26B7-76F4-4814-80AB-A420FA10027A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521E26B7-76F4-4814-80AB-A420FA10027A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521E26B7-76F4-4814-80AB-A420FA10027A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521E26B7-76F4-4814-80AB-A420FA10027A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1F80C7B-4803-46D1-9C49-98770300223B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1F80C7B-4803-46D1-9C49-98770300223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F80C7B-4803-46D1-9C49-98770300223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
